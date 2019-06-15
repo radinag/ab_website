@@ -1,5 +1,4 @@
 $(function() {
-
     //Fixed header
     let header = $("#header");
     let intro = $("#intro");
@@ -9,7 +8,6 @@ $(function() {
     let navToggle = $("#navToggle");
 
     checkScroll(scrollPos, introH);
-
 
     $(window).on("scroll resize", function() {
         introH = intro.innerHeight();
